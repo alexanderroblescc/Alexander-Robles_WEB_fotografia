@@ -1,11 +1,102 @@
 
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:700);
-p{
-    font-family: 'Crimson Text', serif;
-    color: #e611e6;
-    text-align: center;
+
+
+body{
+
+
+    font-family: 'Lora', serif;
 }
-.templatemo-top-bar {
-    min-height: 40px;
-    background-color:#eeeeee;
+header{
+
+align-content: center ; background-color: rgba(181, 182, 158, 1);
+background: rgba(158, 143, 136, 0.9);
+color: rgba(158, 143, 136, 0.9);
+    color: black;
+    width: 100%;
+}
+
+nav{
+    margin: auto;
+    width:100%;
+    max-width: 1000px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav > ul{
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+}
+nav > ul li{
+    display: table-cell;
+}
+
+nav >ul > li:hover >ul{
+    display: block;
+}
+nav >ul >li >ul{
+    display: block;
+    position:fixed;
+}
+nav > ul > li > ul{
+    display: none;
+}
+nav > ul li a {
+   t
+
+    color: #000;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav > ul > li > ul > li a:hover{
+   background: #fff;
+
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing:border-box ;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding:10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li .icon-facebook{background:#3b5998 ;}
+.social ul li .icon-twitter{background:#00abf0 ;}
+.social ul li .icon-gmail{background: #d95232;}
+.social ul li .icon-pinterest{background:#ae181f ;}
+.social ul li .icon-google{background:#666666 ;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
 }
