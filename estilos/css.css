@@ -1,0 +1,11 @@
+
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:700);
+p{
+    font-family: 'Crimson Text', serif;
+    color: #e611e6;
+    text-align: center;
+}
+.templatemo-top-bar {
+    min-height: 40px;
+    background-color:#eeeeee;
+}
